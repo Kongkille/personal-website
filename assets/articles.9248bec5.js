@@ -1,1 +1,0 @@
-import{_ as e}from"./_plugin-vue_export-helper.c27b6911.js";import{c as t,o as c}from"./entry.850bc699.js";const o={},r={class:"text-center font-heading text-lg"};function n(s,a){return c(),t("h1",r,"Nothing here! Yet :D")}const i=e(o,[["render",n]]);export{i as default};
