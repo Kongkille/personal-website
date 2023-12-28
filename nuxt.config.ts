@@ -20,6 +20,17 @@ export default defineNuxtConfig({
           href: "https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap",
         },
       ],
+      script: [
+        {
+          innerHTML: `
+              const theme = localStorage.getItem("theme");
+              if (theme === "dark") {
+                document.documentElement.classList.add("dark");
+              }
+          `,
+          type: "text/javascript",
+        },
+      ],
     },
   },
 });
