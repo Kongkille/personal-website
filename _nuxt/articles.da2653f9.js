@@ -1,1 +1,0 @@
-import{_ as t}from"./TheHeader.vue.fb10a474.js";import{_ as o,c as a,b as c,F as n,a as r,o as s}from"./entry.390d73d9.js";import"./nuxt-link.0b9736e8.js";const _={},i=r("h1",{class:"text-center font-heading text-lg"},"Nothing here! Yet :D",-1);function m(f,l){const e=t;return s(),a(n,null,[c(e),i],64)}const x=o(_,[["render",m]]);export{x as default};
