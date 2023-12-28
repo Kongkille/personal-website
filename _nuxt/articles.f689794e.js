@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as c}from"./entry.35eaf94e.js";const n={},o={class:"text-center font-heading text-lg"};function r(s,a){return c(),t("h1",o,"Nothing here! Yet :D")}const f=e(n,[["render",r]]);export{f as default};
