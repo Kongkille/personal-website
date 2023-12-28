@@ -21,10 +21,8 @@ export function useDarkMode() {
       const localTheme = localStorage.getItem("theme");
 
       if (localTheme) {
-        console.log(localTheme);
         isDarkMode.value = localTheme === "dark";
       } else {
-        console.log("Using default");
         isDarkMode.value = getPreferredColorScheme() === "dark";
       }
 

@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import { useDarkMode } from "../composables/useDarkMode";
-const { isDarkMode, toggleDarkMode } = useDarkMode();
-</script>
-
 <template>
   <div
     role="presentation"
@@ -14,7 +9,7 @@ const { isDarkMode, toggleDarkMode } = useDarkMode();
       ></div>
     </div>
   </div>
-  <the-header :is-dark-mode="isDarkMode" :toggle-dark-mode="toggleDarkMode" />
+  <the-header />
   <div
     class="animate-fadeIn flex justify-center min-h-screen text-text-secondary dark:text-dark-text-secondary text-sm"
   >

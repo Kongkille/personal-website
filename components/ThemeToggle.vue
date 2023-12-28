@@ -21,7 +21,7 @@ const ariaLabel = computed(() =>
       viewBox="0 0 24 24"
       stroke-width="1.5"
       stroke="currentColor"
-      class="dark:hidden block w-6 h-6 fill-teal-50 stroke-teal-500 group-hover:stroke-teal-600"
+      class="dark:hidden block w-6 h-6 fill-emerald-50 stroke-emerald-500 group-hover:stroke-emerald-600"
     >
       <path
         stroke-linecap="round"
