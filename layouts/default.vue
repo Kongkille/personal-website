@@ -13,7 +13,7 @@
   <div
     class="animate-fadeIn flex justify-center min-h-screen text-text-secondary dark:text-dark-text-secondary text-sm"
   >
-    <main class="max-w-2xl w-full flex flex-col p-4 pt-28 gap-12 px-12">
+    <main class="max-w-2xl w-full flex flex-col p-4 pt-28 gap-12 sm:px-12 px-6">
       <slot></slot>
     </main>
   </div>

@@ -19,5 +19,8 @@
     "postinstall": "nuxt prepare",
     "deploy": "gh-pages -d dist"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@headlessui/vue": "^1.7.16"
+  }
 }

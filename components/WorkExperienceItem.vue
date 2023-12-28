@@ -12,7 +12,7 @@ defineProps<Props>();
 </script>
 
 <template>
-  <div class="flex justify-between">
+  <div class="flex flex-col sm:flex-row gap-2 justify-between">
     <p
       class="font-light flex-none w-28 text-text-tertiary dark:text-dark-text-tertiary"
     >

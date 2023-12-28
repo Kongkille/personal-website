@@ -1,9 +1,9 @@
 <template>
   <section class="flex justify-center flex-col gap-8">
-    <div class="flex items-center gap-8">
+    <div class="flex items-center gap-5 sm:gap-8">
       <div>
         <img
-          class="rounded-full w-24"
+          class="rounded-full w-20 sm:w-24"
           src="https://avatars.githubusercontent.com/u/45588799?v=4"
           alt="Markus Kilendahl"
         />
