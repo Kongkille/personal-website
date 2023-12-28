@@ -1,8 +1,6 @@
 <script setup lang="ts">
-const props = defineProps<{
-  isDarkMode?: boolean;
-  toggleDarkMode: () => void;
-}>();
+import { computed } from "vue";
+const { isDarkMode, toggleDarkMode } = useDarkMode();
 
 const route = useRoute();
 const isAvatarHidden = computed(() => route.path === "/");

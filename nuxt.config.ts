@@ -9,8 +9,6 @@ export default defineNuxtConfig({
   },
   css: ["~/assets/css/main.css"],
   app: {
-    baseURL: "/personal-website",
-    buildAssetsDir: "assets",
     head: {
       link: [
         {

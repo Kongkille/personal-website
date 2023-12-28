@@ -1,3 +1,19 @@
+<script setup lang="ts">
+useHead({
+  script: [
+    {
+      innerHTML: `
+          const theme = localStorage.getItem("theme");
+          if (theme === "dark") {
+            document.documentElement.classList.add("dark");
+          }
+      `,
+      type: "text/javascript",
+    },
+  ],
+});
+</script>
+
 <template>
   <div class="flex items-center gap-8">
     <div>

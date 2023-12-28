@@ -18,8 +18,8 @@ const { isDarkMode, toggleDarkMode } = useDarkMode();
   <div
     class="animate-fadeIn flex justify-center min-h-screen text-text-secondary dark:text-dark-text-secondary text-sm"
   >
-    <div class="max-w-2xl w-full flex flex-col p-4 pt-28 gap-12 px-12">
+    <main class="max-w-2xl w-full flex flex-col p-4 pt-28 gap-12 px-12">
       <slot></slot>
-    </div>
+    </main>
   </div>
 </template>

@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <h2
     class="font-bold font-heading text-text-primary dark:text-dark-text-primary my-1"
